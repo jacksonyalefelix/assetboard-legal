@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>隐私政策 · Privacy Policy · AssetBoard（聚沙）</title>
+<meta name="description" content="AssetBoard（聚沙）隐私政策：本地优先设计，不收集任何个人信息。Privacy Policy for AssetBoard.">
+<style>
+  :root{
+    --bg:#ffffff; --fg:#1c1c1e; --muted:#6b7280; --line:#e5e7eb;
+    --accent:#c8102e; --card:#f7f7f8;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{ --bg:#111112; --fg:#f2f2f4; --muted:#9ca3af; --line:#2c2c2e; --accent:#ff4d6a; --card:#1a1a1c; }
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0; background:var(--bg); color:var(--fg);
+    font:16px/1.75 -apple-system,BlinkMacSystemFont,"PingFang SC","Hiragino Sans GB","Microsoft YaHei",Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+  }
+  .wrap{max-width:760px;margin:0 auto;padding:48px 22px 96px}
+  header h1{font-size:27px;line-height:1.35;margin:0 0 8px;letter-spacing:-.2px}
+  .meta{color:var(--muted);font-size:14px;margin:0 0 26px}
+  nav.langs{display:flex;flex-wrap:wrap;gap:8px;padding:14px 0 22px;border-bottom:1px solid var(--line);margin-bottom:34px}
+  nav.langs a{
+    display:inline-block;padding:6px 13px;border:1px solid var(--line);border-radius:999px;
+    color:var(--fg);text-decoration:none;font-size:14px;background:var(--card);
+  }
+  nav.langs a:hover{border-color:var(--accent);color:var(--accent)}
+  article{padding-top:8px}
+  article + article{margin-top:64px;padding-top:44px;border-top:2px solid var(--line)}
+  h2.lang{font-size:21px;margin:0 0 6px}
+  h3{font-size:16.5px;margin:32px 0 10px}
+  p{margin:10px 0}
+  ul{margin:10px 0;padding-left:22px}
+  li{margin:5px 0}
+  strong{font-weight:600}
+  .lead{background:var(--card);border-left:3px solid var(--accent);padding:14px 16px;border-radius:0 8px 8px 0;margin:16px 0 8px}
+  table{width:100%;border-collapse:collapse;margin:14px 0;font-size:14.5px}
+  th,td{border:1px solid var(--line);padding:9px 11px;text-align:left;vertical-align:top}
+  th{background:var(--card);font-weight:600;white-space:nowrap}
+  code{background:var(--card);padding:1px 6px;border-radius:4px;font-size:13.5px;
+       font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+  footer{margin-top:72px;padding-top:22px;border-top:1px solid var(--line);color:var(--muted);font-size:13.5px}
+  footer a{color:var(--muted)}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <h1>AssetBoard（聚沙）· 隐私政策</h1>
+  <p class="meta">生效日期：2026 年 10 月 6 日　·　最后更新：2026 年 10 月 6 日</p>
+  <nav class="langs">
+    <a href="#zh-Hans">简体中文</a>
+    <a href="#zh-Hant">繁體中文</a>
+    <a href="#en">English</a>
+  </nav>
+</header>
+
+<!-- ============================ 简体中文 ============================ -->
+<article id="zh-Hans" lang="zh-Hans">
+  <h2 class="lang">隐私政策（简体中文）</h2>
+
+  <div class="lead">
+    <p><strong>一句话概括：我们不收集您的任何数据。</strong>AssetBoard（聚沙）是本地优先（local-first）的资产组合追踪应用，我们没有服务器，也不运营任何后端服务。您的持仓、交易记录与资产数据只保存在您自己的设备上 —— 我们既无法访问，也不会传输给任何人。</p>
+  </div>
+
+  <h3>一、我们不收集的信息</h3>
+  <p>本应用不要求注册或登录，也不收集任何可直接或间接识别您身份的信息。具体包括：</p>
+  <ul>
+    <li>不收集姓名、手机号码、电子邮箱、证件号码等身份信息；</li>
+    <li>不采集任何设备标识符（如 IDFV、IDFA），不进行跨 App 或跨网站追踪；</li>
+    <li>不集成任何第三方统计、分析、广告或崩溃上报 SDK；</li>
+    <li>不申请定位、相机、相册、麦克风、通讯录、通知等系统敏感权限（本应用未声明任何此类权限）；</li>
+    <li>不收集您的持仓、成交记录、成本价、资产总额等任何财务数据。</li>
+  </ul>
+
+  <h3>二、数据保存在哪里</h3>
+  <ul>
+    <li>全部数据（持仓、交易记录、历史收盘价、应用设置）均存储在您设备上的应用私有容器内，路径为 <code>Application Support/AssetBoard</code>。</li>
+    <li>桌面与锁屏小组件通过 iOS 的 App Group 机制读取同一份本地数据快照。该共享<strong>仅发生在您的设备内部</strong>，不会离开设备。</li>
+    <li>上述数据受 iOS 系统级加密保护；设备处于锁定状态时无法读取。</li>
+    <li>当前版本不提供跨设备同步，未启用 iCloud 或任何云端存储。</li>
+  </ul>
+
+  <h3>三、联网与第三方数据源</h3>
+  <p>为显示实时行情，本应用需要联网。请求中仅包含证券代码、日期区间等查询参数，<strong>不包含任何可识别您身份的信息</strong>，也不会上传您的持仓内容。您的设备会以本机网络出口 IP 直接访问以下公开数据接口：</p>
+  <table>
+    <thead><tr><th>服务用途</th><th>访问的域名</th></tr></thead>
+    <tbody>
+      <tr><td>东方财富（A 股、基金、期货行情）</td><td><code>push2.eastmoney.com</code><br><code>push2delay.eastmoney.com</code><br><code>push2his.eastmoney.com</code><br><code>searchapi.eastmoney.com</code><br><code>api.fund.eastmoney.com</code></td></tr>
+      <tr><td>新浪财经（行情备用源、内盘期货）</td><td><code>hq.sinajs.cn</code><br><code>finance.sina.com.cn</code></td></tr>
+      <tr><td>腾讯财经（行情备用源、分时数据）</td><td><code>qt.gtimg.cn</code><br><code>web.ifzq.gtimg.cn</code></td></tr>
+      <tr><td>Binance（加密货币行情）</td><td><code>data-api.binance.vision</code></td></tr>
+      <tr><td>Gate.io（加密货币行情备用源）</td><td><code>api.gateio.ws</code></td></tr>
+      <tr><td>汇率数据</td><td><code>api.frankfurter.dev</code><br><code>open.er-api.com</code></td></tr>
+    </tbody>
+  </table>
+  <p>上述第三方服务可能依据其自身的隐私政策记录访问日志（例如 IP 地址、访问时间）。我们既不控制这些日志，也无法访问它们。</p>
+
+  <h3>四、内购与支付</h3>
+  <p>当前版本不提供任何内购或订阅。若未来版本推出订阅服务，购买与支付将完全由 Apple 通过 App Store 处理，我们不会接触、记录或存储您的支付信息。</p>
+
+  <h3>五、数据共享、出售与跨境传输</h3>
+  <p>我们不出售、不出租、不共享、不转让您的任何数据。由于我们在技术上无法访问您设备上的数据，也不存在向第三方提供数据的可能性。</p>
+
+  <h3>六、数据保留与删除</h3>
+  <ul>
+    <li><strong>保留期限：</strong>数据仅存在于您的设备上，保留多久完全由您决定。</li>
+    <li><strong>删除方式：</strong>您可在应用内删除单条持仓或成交记录，或使用设置中的清空功能；卸载本应用将一并清除全部数据。</li>
+    <li>我们无法代为删除或导出您的数据，因为我们不持有您的数据副本。</li>
+  </ul>
+
+  <h3>七、您的权利</h3>
+  <p>在《通用数据保护条例》（GDPR）、《中华人民共和国个人信息保护法》（PIPL）等适用法律下，您对自己的个人数据享有访问、更正、删除、可携带及撤回同意的权利。由于本应用不收集数据，这些权利由您在本机直接行使（应用内提供查看、修改、删除与导出功能）。如需任何协助，欢迎通过下方邮箱联系我们。</p>
+
+  <h3>八、儿童隐私</h3>
+  <p>本应用不面向 13 岁以下儿童，且不会有意识地收集儿童信息。</p>
+
+  <h3>九、本政策的变更</h3>
+  <p>如本政策发生变更，我们将更新本页面并注明「最后更新」日期；涉及重大变更时，我们会在应用内或版本更新说明中提示。</p>
+
+  <h3>十、联系我们</h3>
+  <p>如对本政策有任何疑问或需要协助，请联系：<br><strong>电子邮箱：</strong><a href="mailto:jacksonyalefelix@gmail.com">jacksonyalefelix@gmail.com</a></p>
+</article>
+
+<!-- ============================ 繁體中文 ============================ -->
+<article id="zh-Hant" lang="zh-Hant">
+  <h2 class="lang">隱私政策（繁體中文）</h2>
+
+  <div class="lead">
+    <p><strong>一句話總結：我們不收集您的任何資料。</strong>AssetBoard（聚沙）是本地優先（local-first）的資產組合追蹤應用程式，我們沒有伺服器，也不營運任何後端服務。您的持倉、交易紀錄與資產資料只儲存在您自己的裝置上 —— 我們既無法存取，也不會傳輸給任何人。</p>
+  </div>
+
+  <h3>一、我們不收集的資料</h3>
+  <p>本應用程式不要求註冊或登入，也不收集任何可直接或間接識別您身分的資料。具體包括：</p>
+  <ul>
+    <li>不收集姓名、手機號碼、電子郵件、證件號碼等身分資料；</li>
+    <li>不採集任何裝置識別碼（如 IDFV、IDFA），不進行跨 App 或跨網站追蹤；</li>
+    <li>不整合任何第三方統計、分析、廣告或當機回報 SDK；</li>
+    <li>不申請定位、相機、相簿、麥克風、通訊錄、通知等系統敏感權限（本應用程式未宣告任何此類權限）；</li>
+    <li>不收集您的持倉、成交紀錄、成本價、資產總額等任何財務資料。</li>
+  </ul>
+
+  <h3>二、資料儲存在哪裡</h3>
+  <ul>
+    <li>全部資料（持倉、交易紀錄、歷史收盤價、應用程式設定）均儲存在您裝置上的應用程式私有容器內，路徑為 <code>Application Support/AssetBoard</code>。</li>
+    <li>桌面與鎖定畫面小工具透過 iOS 的 App Group 機制讀取同一份本地資料快照。該共享<strong>僅發生在您的裝置內部</strong>，不會離開裝置。</li>
+    <li>上述資料受 iOS 系統級加密保護；裝置處於鎖定狀態時無法讀取。</li>
+    <li>目前版本不提供跨裝置同步，未啟用 iCloud 或任何雲端儲存。</li>
+  </ul>
+
+  <h3>三、連線與第三方資料來源</h3>
+  <p>為顯示即時行情，本應用程式需要連線。請求中僅包含證券代碼、日期區間等查詢參數，<strong>不包含任何可識別您身分的資料</strong>，也不會上傳您的持倉內容。您的裝置會以本機網路出口 IP 直接存取以下公開資料介面：</p>
+  <table>
+    <thead><tr><th>服務用途</th><th>存取的網域</th></tr></thead>
+    <tbody>
+      <tr><td>東方財富（A 股、基金、期貨行情）</td><td><code>push2.eastmoney.com</code><br><code>push2delay.eastmoney.com</code><br><code>push2his.eastmoney.com</code><br><code>searchapi.eastmoney.com</code><br><code>api.fund.eastmoney.com</code></td></tr>
+      <tr><td>新浪財經（行情備用來源、內盤期貨）</td><td><code>hq.sinajs.cn</code><br><code>finance.sina.com.cn</code></td></tr>
+      <tr><td>騰訊財經（行情備用來源、分時資料）</td><td><code>qt.gtimg.cn</code><br><code>web.ifzq.gtimg.cn</code></td></tr>
+      <tr><td>Binance（加密貨幣行情）</td><td><code>data-api.binance.vision</code></td></tr>
+      <tr><td>Gate.io（加密貨幣行情備用來源）</td><td><code>api.gateio.ws</code></td></tr>
+      <tr><td>匯率資料</td><td><code>api.frankfurter.dev</code><br><code>open.er-api.com</code></td></tr>
+    </tbody>
+  </table>
+  <p>上述第三方服務可能依其自身的隱私政策記錄存取日誌（例如 IP 位址、存取時間）。我們既不控制這些日誌，也無法存取它們。</p>
+
+  <h3>四、內購與付款</h3>
+  <p>目前版本不提供任何內購或訂閱。若未來版本推出訂閱服務，購買與付款將完全由 Apple 透過 App Store 處理，我們不會接觸、記錄或儲存您的付款資料。</p>
+
+  <h3>五、資料分享、出售與跨境傳輸</h3>
+  <p>我們不出售、不出租、不分享、不轉讓您的任何資料。由於我們在技術上無法存取您裝置上的資料，也不存在向第三方提供資料的可能性。</p>
+
+  <h3>六、資料保留與刪除</h3>
+  <ul>
+    <li><strong>保留期限：</strong>資料僅存在於您的裝置上，保留多久完全由您決定。</li>
+    <li><strong>刪除方式：</strong>您可在應用程式內刪除單筆持倉或成交紀錄，或使用設定中的清除功能；解除安裝本應用程式將一併清除全部資料。</li>
+    <li>我們無法代為刪除或匯出您的資料，因為我們不持有您的資料副本。</li>
+  </ul>
+
+  <h3>七、您的權利</h3>
+  <p>在《一般資料保護規則》（GDPR）、《個人資料保護法》等適用法律下，您對自己的個人資料享有查閱、更正、刪除、可攜及撤回同意的權利。由於本應用程式不收集資料，這些權利由您在本機直接行使（應用程式內提供檢視、修改、刪除與匯出功能）。如需任何協助，歡迎透過下方電子郵件聯絡我們。</p>
+
+  <h3>八、兒童隱私</h3>
+  <p>本應用程式不適用於 13 歲以下兒童，且不會有意收集兒童資料。</p>
+
+  <h3>九、本政策的變更</h3>
+  <p>如本政策發生變更，我們將更新本頁面並註明「最後更新」日期；涉及重大變更時，我們會在應用程式內或版本更新說明中提示。</p>
+
+  <h3>十、聯絡我們</h3>
+  <p>如對本政策有任何疑問或需要協助，請聯絡：<br><strong>電子郵件：</strong><a href="mailto:jacksonyalefelix@gmail.com">jacksonyalefelix@gmail.com</a></p>
+</article>
+
+<!-- ============================ English ============================ -->
+<article id="en" lang="en">
+  <h2 class="lang">Privacy Policy (English)</h2>
+
+  <div class="lead">
+    <p><strong>In one sentence: we do not collect any of your data.</strong> AssetBoard is a local-first portfolio tracker. We have no server and operate no backend service of any kind. Your holdings, trade records and asset data stay on your own device — we cannot access them and do not transmit them to anyone.</p>
+  </div>
+
+  <h3>1. Information We Do Not Collect</h3>
+  <p>The app requires no sign-up or login and does not collect information that could identify you, directly or indirectly. Specifically, we do not:</p>
+  <ul>
+    <li>collect your name, phone number, email address or any government identifier;</li>
+    <li>collect device identifiers (such as IDFV or IDFA), or track you across apps or websites;</li>
+    <li>integrate any third-party analytics, advertising or crash-reporting SDK;</li>
+    <li>request sensitive system permissions such as location, camera, photos, microphone, contacts or notifications (no such permission is declared by the app);</li>
+    <li>collect your holdings, transactions, cost basis, total asset value or any other financial data.</li>
+  </ul>
+
+  <h3>2. Where Your Data Is Stored</h3>
+  <ul>
+    <li>All data (holdings, trade records, historical closing prices and app settings) is stored inside the app's private container on your device, at <code>Application Support/AssetBoard</code>.</li>
+    <li>The Home Screen and Lock Screen widgets read the same local snapshot through Apple's App Group mechanism. That sharing happens <strong>entirely within your device</strong> and never leaves it.</li>
+    <li>This data is protected by iOS system-level encryption and cannot be read while the device is locked.</li>
+    <li>The current version offers no cross-device sync and does not use iCloud or any cloud storage.</li>
+  </ul>
+
+  <h3>3. Network Requests and Third-Party Data Sources</h3>
+  <p>To display live market quotes, the app needs network access. Requests contain only query parameters such as security codes and date ranges. They contain <strong>no personally identifying information</strong> and never upload your holdings. Your device contacts the following public endpoints directly, using your own network IP address:</p>
+  <table>
+    <thead><tr><th>Purpose</th><th>Domains contacted</th></tr></thead>
+    <tbody>
+      <tr><td>East Money — mainland China stocks, funds, futures</td><td><code>push2.eastmoney.com</code><br><code>push2delay.eastmoney.com</code><br><code>push2his.eastmoney.com</code><br><code>searchapi.eastmoney.com</code><br><code>api.fund.eastmoney.com</code></td></tr>
+      <tr><td>Sina Finance — quote fallback, domestic futures</td><td><code>hq.sinajs.cn</code><br><code>finance.sina.com.cn</code></td></tr>
+      <tr><td>Tencent Finance — quote fallback, intraday data</td><td><code>qt.gtimg.cn</code><br><code>web.ifzq.gtimg.cn</code></td></tr>
+      <tr><td>Binance — cryptocurrency quotes</td><td><code>data-api.binance.vision</code></td></tr>
+      <tr><td>Gate.io — cryptocurrency quote fallback</td><td><code>api.gateio.ws</code></td></tr>
+      <tr><td>Foreign exchange rates</td><td><code>api.frankfurter.dev</code><br><code>open.er-api.com</code></td></tr>
+    </tbody>
+  </table>
+  <p>These third-party services may log access data (such as IP address and time of access) under their own privacy policies. We neither control nor have access to those logs.</p>
+
+  <h3>4. Purchases and Payments</h3>
+  <p>The current version offers no in-app purchases or subscriptions. If a subscription is introduced in a future version, all purchases and payments will be handled entirely by Apple through the App Store. We will not receive, record or store your payment information.</p>
+
+  <h3>5. Sharing, Selling and Cross-Border Transfer</h3>
+  <p>We do not sell, rent, share or transfer your data to anyone. Because we technically cannot access the data on your device, providing it to a third party is not possible.</p>
+
+  <h3>6. Data Retention and Deletion</h3>
+  <ul>
+    <li><strong>Retention:</strong> your data exists only on your device, for as long as you choose.</li>
+    <li><strong>Deletion:</strong> you can delete individual holdings or trades in the app, or use the clear-data function in Settings. Deleting the app removes all of its data.</li>
+    <li>We cannot delete or export data on your behalf, because we hold no copy of it.</li>
+  </ul>
+
+  <h3>7. Your Rights</h3>
+  <p>Under applicable laws such as the GDPR and PIPL, you have the right to access, correct, delete, port and withdraw consent regarding your personal data. Because the app collects no data, you exercise these rights directly on your own device (the app provides viewing, editing, deletion and export). If you need any assistance, please contact us at the address below.</p>
+
+  <h3>8. Children's Privacy</h3>
+  <p>The app is not directed to children under 13 and does not knowingly collect information from them.</p>
+
+  <h3>9. Changes to This Policy</h3>
+  <p>If this policy changes, we will update this page and revise the "Last updated" date. For material changes we will provide notice in the app or in the release notes.</p>
+
+  <h3>10. Contact Us</h3>
+  <p>For any question about this policy, please contact:<br><strong>Email:</strong> <a href="mailto:jacksonyalefelix@gmail.com">jacksonyalefelix@gmail.com</a></p>
+</article>
+
+<footer>
+  <p>AssetBoard（聚沙）· 全球资产・多币种组合追踪<br>
+  © 2026 AssetBoard. All rights reserved.</p>
+</footer>
+
+</div>
+</body>
+</html>
